@@ -1,0 +1,231 @@
+
+.ecosystem_headerWrapper__QIUwh{
+    --reach-tabs: 1;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525c65;
+    line-height: 24px;
+    box-sizing: inherit;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 596px;
+}
+section{
+  background: linear-gradient(90deg ,#141414 ,rgb(31, 31, 31));
+  animation: animate 20s linear infinite;
+  
+}
+@keyframes animate{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  50%
+  {
+    filter: hue-rotate(60deg);
+  }
+  100%
+  {
+    filter: hue-rotate(0deg);
+  }
+}
+section :before{
+  content:'';
+  position: absolute ;
+  top: 0;
+  left: 0;  
+  border-top: 100% solid transparent;
+  border-left: 100% solid #fff;
+  opacity: 0.1;
+
+}
+section :after{
+  content:'';
+  /* position: absolute ;
+  bottom: 0;
+  right: 0; */
+  border-top: 100% solid transparent;
+  border-right: 100% solid #fff;
+  opacity: 0.1;
+
+}
+h2{
+    --reach-tabs: 1;
+    font-family: Open Sans,sans-serif;
+    text-align: center;
+    box-sizing: inherit;
+    margin-top: 0;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 24px;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 36px;
+    font-weight:inherit;
+}
+p{
+    --reach-tabs: 1;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    box-sizing: inherit;
+    color: rgb(185, 185, 177);
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    line-height: 28px;
+}
+.steps {
+    align-items:left;
+    text-align: left;
+}
+h4 ,h5{
+  color: #ffffff;
+}
+b{
+  color: #ffffff;
+}
+
+.card{
+    padding-top: 10% ;
+}
+
+.student-stories_grid__3P7kQ{
+    --reach-tabs: 1;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525c65;
+    line-height: 24px;
+    box-sizing: inherit;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-column-gap: 1rem;
+    margin: 0 auto;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4rem;
+}
+.student-stories_cardWrap__1UNG{
+    --reach-tabs: 1;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525c65;
+    line-height: 24px;
+    list-style: none;
+    box-sizing: inherit;
+    padding-top: 32px;
+    height: 100%;
+}
+.student-stories_card__2vdAL{
+    --reach-tabs: 1;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525c65;
+    line-height: 24px;
+    list-style: none;
+    box-sizing: inherit;
+    background: #fff;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: .375rem;
+    border-top: var(--accent-width,5px) solid var(--accent-color,#fff);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --accent-color: #02ccba;
+    --accent-width: 3px;
+}
+.student-stories_cardName__bnWxq{
+    --reach-tabs: 1;
+    font-family: Open Sans,sans-serif;
+    list-style: none;
+    text-align: center;
+    --accent-color: #02ccba;
+    --accent-width: 3px;
+    box-sizing: inherit;
+    margin-top: 0;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: #2e3d49;
+    margin-bottom: 1rem;
+}
+.student-stories_cardQuote__2YKec{
+    --reach-tabs: 1;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-align: center;
+    --accent-color: #02ccba;
+    --accent-width: 3px;
+    box-sizing: inherit;
+    color: #525c65;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 28px;
+    font-size: 1rem;
+    padding: 0 1.25rem 1.25rem;
+    font-style: italic;
+    flex: 1 1 auto;
+}
+.student-stories_cardCompanyInfo__1qGzm{
+    --reach-tabs: 1;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525c65;
+    line-height: 24px;
+    list-style: none;
+    text-align: center;
+    --accent-color: #02ccba;
+    --accent-width: 3px;
+    box-sizing: inherit;
+    border-radius: 0 0 8px 8px;
+    background-color: #f7f7f8;
+    flex: 0 0 auto;
+    width: 100%;
+}
+.student-stories_cardNowAt__2mZNg{
+    --reach-tabs: 1;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-align: center;
+    --accent-color: #02ccba;
+    --accent-width: 3px;
+    box-sizing: inherit;
+    line-height: 28px;
+    color: #525c65;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: .8125rem;
+}
+@media (min-width: 360px)  and (max-width: 414px){
+  .ecosystem_headerWrapper__QIUwh img{
+    width:80%;
+    height:80%;
+  }
+  .play iframe{
+    position: relative; 
+    width: 75%;
+    height: 60%;
+  }
+  .play{
+    padding-left: 20%;
+  }
+}
