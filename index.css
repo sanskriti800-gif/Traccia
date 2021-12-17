@@ -517,4 +517,14 @@ a {
   }
   
 }
+@media (max-width:720px) {
+  #hero li{
+    position: relative;
+    bottom:100%;
+    left:20%;
+    align-items: inherit;
+  }
+
+  
+}
 
