@@ -482,7 +482,7 @@ a {
     height:10%
   }
 }
-@media (min-width: 360px)  and (max-width: 414px){
+@media (min-width: 360px)  and (max-width: 415px){
   .hero-container h1{
   visibility: hidden;
   }
